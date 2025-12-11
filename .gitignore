@@ -1,0 +1,35 @@
+# Arquivos de sistema
+.DS_*
+Thumbs.db
+
+# Logs
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+# Dependências de Node
+node_modules
+bower_components
+
+# IDEs/editores
+*.sublime*
+.vscode/
+.idea/
+
+# Build/produção
+dist/
+build/
+out/
+coverage/
+
+# Arquivos de design
+psd
+thumb
+sketch
+
+# Ambiente Python (caso use scripts auxiliares)
+.venv/
+venv/
+__pycache__/
+*.pyc
