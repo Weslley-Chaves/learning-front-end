@@ -38,8 +38,11 @@ Exemplo de mensagem de commit que vou seguir no dia a dia:
 
 ```bash
 git commit -m "aula 05: HTML semântico — criação de estrutura básica de página"
-🧩 Estrutura de organização
 ```
+
+---
+
+## 🧩 Estrutura de organização
 
 A estrutura foi pensada para separar bem aulas, projetos de prática e testes/experimentos:
 
@@ -67,6 +70,8 @@ learning-front_end/
 ⚠️ A organização interna das subpastas pode mudar com o tempo conforme eu evoluir no curso.
 O importante é manter tudo claro e navegável tanto pra mim quanto pra quem estiver vendo o repositório.
 
+---
+
 ## 🏗️ Regras do projeto
 
 - Este repositório é focado em estudos de Front-end
@@ -78,6 +83,8 @@ O importante é manter tudo claro e navegável tanto pra mim quanto pra quem est
 - Experimentos livres podem ir para a pasta tests/ sem preocupação com perfeição
 
 O foco é: praticar, errar, refatorar e entender o porquê das coisas
+
+---
 
 ## 🧪 Tecnologias envolvidas
 
@@ -92,6 +99,8 @@ Ao longo do tempo, pretendo praticar:
 - React (componentes, estado, props, etc.)
 
 - Ferramentas do ecossistema front-end (npm, bundlers, etc.) conforme forem aparecendo no curso
+
+---
 
 ## 🚀 Objetivo final
 
