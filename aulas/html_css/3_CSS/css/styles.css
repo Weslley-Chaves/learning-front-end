@@ -39,3 +39,21 @@ body {
 h2 {
     text-align: center;
 }
+
+.color-name {
+    color: crimson;
+}
+
+.hex {
+    color: #dc143c;
+    /* crinson em hex */
+}
+
+.rgb {
+    color: rgb(220, 20, 60);
+}
+
+.rgba {
+    background-color: rgba(255, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.2);
+}
