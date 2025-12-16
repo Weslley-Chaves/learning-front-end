@@ -7,3 +7,17 @@ body {
     color: blue;
     font-size: 100px;
 }
+
+
+.paragraph {
+    background-color: red;
+    color: rgb(255, 251, 0);
+    border-radius: 16px;
+    margin: 1%;
+}
+
+#exclusive-title {
+    color: black;
+    background-color: blueviolet;
+    border-radius: 16px;
+}
