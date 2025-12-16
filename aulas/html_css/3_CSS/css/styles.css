@@ -21,3 +21,21 @@ body {
     background-color: blueviolet;
     border-radius: 16px;
 }
+
+.titulo {
+    color: rgb(31, 87, 133);
+    border: rgb(150, 76, 76) solid 3px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+#title {
+    color: rgb(150, 76, 76);
+    border: rgb(0, 9, 128) solid 4px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
