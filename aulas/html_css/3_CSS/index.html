@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
+
     <!-- 3 - Internal CSS -->
     <style>
         p {
@@ -15,15 +16,21 @@
         }
     </style>
 
+    <!-- 4 - External CSS -->
+    <!-- Cascading Style Sheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/lists.css">
+    <link rel="stylesheet" href="css/titles.css">
+
 </head>
 
 <body>
+
     <!-- 1 - Inline CSS -->
     <h1 style="color: red;">Mudando a cor com o Inline CSS</h1>
     <h1>Outro título</h1>
 
     <!-- 2 - Múltlipas regras CSS -->
-
     <h1
         style="color: rgb(160, 66, 255); text-align: center; font-size: 40px; border-bottom: rgb(0, 0, 0) solid 1px; padding: 15px; border-top: rgb(0, 0, 0) solid 1px">
         Múltiplas
@@ -33,11 +40,26 @@
 
     <!-- 3 - Internal CSS -->
     <!-- É conectado dentro da tah 'head' com a tag 'style' -->
-
     <p>1</p>
     <p>2</p>
     <p>3</p>
 
+    <!-- 4 - External CSS -->
+    <p class="test">FIM</p>
+
+    <!-- 5 - Ordem do CSS -->
+    <p class="test" style="color: red;">ORDEM do CSS</p> <!-- o INLINE sobrepoem o Internal e External CSS -->
+
+    <!-- 6 - Multiplos arquivos CSS -->
+
+    <ol>Lista de frutas:
+        <li>Maça</li>
+        <li>Banana</li>
+        <li>Morango</li>
+    </ol>
+
+    <!-- 7 - DESAFIO 2 -->
+    <h4>Desafio de estilização com múltiplos arquivos CSS</h4>
 </body>
 
 </html>

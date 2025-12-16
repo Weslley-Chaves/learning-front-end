@@ -1,0 +1,9 @@
+body {
+    padding-bottom: 500px;
+}
+
+/* 4 - Criando uma classe em CSS - External CSS */
+.test {
+    color: blue;
+    font-size: 100px;
+}
